@@ -29,3 +29,5 @@ default options:
   quality is 10
   height is 36
 ```
+
+the output will be copied to clipboard, which then allows you to simply paste.
