@@ -15,7 +15,7 @@ are not returned null.
 
 ```bash
 usage: 
-  latexit [-c <color>] [-s <save as...>] [-v] [-q <quality>] -e <"expression">
+  latexit [-c <color>] [-s <save as...>] [-v] [-q <quality>] [-H <height>] -e <"expression">
 
 hints:
   color names are provided with xcolor package
