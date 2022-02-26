@@ -13,6 +13,14 @@ which xclip
 
 are not returned null.
 
+it may also be useful to run
+
+```bash
+ln -s latexit-3 latexit
+```
+
+at a suitable location before proceeding.
+
 ```bash
 usage: 
   latexit [-c <color>] [-s <save as...>] [-v] [-q <quality>] [-H <height>] -e "<expression>"
@@ -27,7 +35,9 @@ default options:
   save location is ./latexit.png
   verbose is false
   quality is 10
-  height is 36
+  height is 72
 ```
 
 the output will be copied to clipboard, which then allows you to simply paste.
+
+the copy-paste function works so far in, e.g. LibreOffice Impress but not in Mozilla Thunderbird. however, drag-and-drop works fine in Thunderbird.
